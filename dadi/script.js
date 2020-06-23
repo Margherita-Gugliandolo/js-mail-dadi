@@ -10,22 +10,21 @@ tiraDadi.addEventListener ('click', function () {
 for (var i = 0; i < 3; i++) {
   dado1 = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
   dado2 = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
-}
-
   if (dado1 > dado2){
     m++;
-    if(m > n){
-    console.log("vince dado computer");
-    }
   } else if (dado2 > dado1){
     n++;
-    if(n > m) {
-      console.log ("vinci tu!");
-    }
-  } else {
-    console.log ("parità");
+  }
 }
 
+
+if (m > n){
+  console.log("vince il computer popopo..!");
+} else if (n > m){
+  console.log ("Hai vinto fortunello");
+} else {
+  console.log ("parità");
+}
 
 console.log(m);
 console.log(n);
