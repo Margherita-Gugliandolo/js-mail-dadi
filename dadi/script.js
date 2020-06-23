@@ -15,12 +15,12 @@ for (var i = 0; i < 3; i++) {
   if (dado1 > dado2){
     m++;
     if(m > n){
-    console.log("vince dado 1");
+    console.log("vince dado computer");
     }
   } else if (dado2 > dado1){
     n++;
     if(n > m) {
-      console.log ("vince dado 2");
+      console.log ("vinci tu!");
     }
   } else {
     console.log ("parità");
