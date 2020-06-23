@@ -1,7 +1,7 @@
 //js-dadi creare un mini gioco in cui si lanciano due dadi, uno per il computer e uno per il giocatore e si determina chi ha vinto.
 
-var TiraDadi = document.getElementById('btn');
-TiraDadi.addEventListener ('click', function () {
+var tiraDadi = document.getElementById('btn');
+tiraDadi.addEventListener ('click', function () {
   var dado1;
   var dado2;
   var n = 0;
