@@ -14,18 +14,18 @@ for (var i = 0; i < 3; i++) {
 
   if (dado1 > dado2){
     m++;
+    if(m > n){
+    console.log("vince dado 1");
+    }
   } else if (dado2 > dado1){
     n++;
-  }
-
-
-if (m > n){
-  console.log("vince dado 1");
-} else if (n > m){
-  console.log ("vince dado 2");
-} else {
-  console.log ("parità");
+    if(n > m) {
+      console.log ("vince dado 2");
+    }
+  } else {
+    console.log ("parità");
 }
+
 
 console.log(m);
 console.log(n);
